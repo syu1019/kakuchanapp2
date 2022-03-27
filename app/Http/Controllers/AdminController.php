@@ -8,9 +8,9 @@ class AdminController extends Controller
 {
     public function admin()
     {
-        DB::table('kakuta_fives')->insert([
-            'kakuta' => 'kakutaaaaa'
-        ]);
+//        DB::table('kakuta_fives')->insert([
+//            'kakuta' => 'kakutaaaaa'
+//        ]);
 
         return view('admin');
     }
